@@ -164,7 +164,7 @@ while running:
         print(bcolors.FAIL + "You lose!" + bcolors.ENDC)
         running = False
 
-    # Enemy attack phase
+    # Enemy attack phase .... test git
     for enemy in enemies:
         target = random.randrange(0, 3)
         enemy_dmg = enemy.generate_damage()
